@@ -8,7 +8,6 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
   end
 
-
   def create
      @user = User.new(params[:user])
     if @user.save
@@ -19,5 +18,3 @@ class UsersController < ApplicationController
     end
   end
 end
-
-7.4.3実際のユ
